@@ -1,0 +1,238 @@
+/* ADD YOUR STYLES HERE */
+
+/* Section 6, Horizontal Spacing*/
+
+.horiz-spacing{
+  position: relative;
+  width: 82%;
+  left: 12%;
+}
+
+.horiz-spacing img{
+  padding: 20px;    
+}
+
+.horiz-spacing2{
+  position: relative;
+  float: right;
+}
+
+.horiz-spacing2 img{
+  display: inline-block;
+  vertical-align: top;
+  padding-right: 40px;
+}
+
+.horiz-spacing2 p{
+  display: inline-block;
+  vertical-align: top;
+  padding-right: 40px;
+}
+
+.horiz-spacing2 ol{
+  display: inline-block;
+  vertical-align: top;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/* Section 7, Vertical Spacing*/
+
+.vert-spacing{
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+
+.vert-img-top{
+    margin-top: 75px;   
+}
+
+.vert-img-bottom{
+    margin-top: none;
+}
+
+.vert-spacing2 ol{
+    margin-bottom: 100px;
+}
+
+/* Section 8, Horizontal List*/
+
+#horiz-list{
+    padding-left: 0;
+}
+#horiz-list li{
+  display: inline;
+  float: left;
+}
+
+/* Section 9, Buttons*/
+
+a{
+  display: inline-block;
+  background: #D46A6A;
+  color: white;
+  text-decoration: none;
+  font-family: Arial;
+  padding: 5px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+#buy-now{
+  width: 200px;
+  height: 50px;
+  font-size: 24px;
+  line-height: 45px;
+}
+
+#learn-more{
+  width: 150px;
+  height: 25px;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+#ok{
+  width: 30px;
+  height: 20px;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.button2{
+  display: inline-block;
+  background: #D46A6A;
+  color: white;
+  text-decoration: none;
+  font-family: Arial;
+  padding: 5px;
+  border-radius: 5px;
+  text-align: center;
+  border:0;
+  width: 150px;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+/* Section 10, Navigation*/
+
+#nav-menu{
+    position: absolute;
+    left: 60px;
+}
+
+#nav-menu a{
+  color: white;
+  text-decoration: none;
+}  
+
+#nav-menu a:hover{
+    color: blue;
+}
+
+#nav-menu li{
+  display: inline-block;
+  background: #D46A6A;
+  font-family: Arial;
+  padding: 5px;
+  text-align: center;
+  width: 125px;
+  font-size: 18px;
+  line-height: 25px; 
+  float: left;
+}
+
+#nav-menu li:first-child{
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+#nav-menu li:last-child{
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+/*Section 11: Pagination*/
+
+.pagi li{
+  display: inline-block;
+  padding: 10px;
+  border-bottom: 2px solid #d46a6a;
+}
+
+.pagi a{
+  color: #D46A6A;
+  font-size: 18px;
+  text-decoration: none;
+  background: none;
+}
+
+.pagi span{
+  color: gray;
+  font-size: 18px;
+}
+
+.pagi .prev-next{
+  text-decoration: none;
+  border-bottom: none;
+}
+
+.pagi #active{
+  border-bottom: 2px solid gray; 
+  height: 27px;
+}
+
+/*Section 12: Comment Stream*/
+
+.cmmnt {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.cmmnt > .cmmnt-img {
+  float: left;
+}
+
+.cmmnt .cmmnt-content {
+  margin-left: 90px;
+}
+
+.cmmnt .cmmnt-reply .cmmnt-reply-img {
+  float: left;
+}
+
+.cmmnt .cmmnt-reply .cmmnt-reply-content {
+  margin-left: 80px;
+}
+
+.cmmnt time{
+  font-size: 12px;
+  color: lightgray;
+}
+
+.cmmnt p {
+  margin-top: 0em;
+  margin-bottom: 2em;
+}
+
+/* Section 13: Tabs*/
+
+#tabs{
+  padding-left: 0px;
+}
+
+#tabs li{
+  display: inline-block;
+  width: 75px;
+  padding: 5px;
+  
+}
+
+#tabs a{
+  text-decoration: none;
+  font-weight: bold;
+  text-align: center;
+  background: none;
+  color: blue;
+}
+
