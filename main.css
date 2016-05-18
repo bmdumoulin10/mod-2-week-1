@@ -217,22 +217,47 @@ a{
 
 /* Section 13: Tabs*/
 
-#tabs{
-  padding-left: 0px;
+.tabs{
+    list-style: none;
+    padding-left: 0;
+    margin-left: 10px;
+    margin-bottom: -1px;
+    
 }
 
-#tabs li{
+.tabs li{
+    display: inline-block;
+    border: 1px solid #6699cc;
+    border-bottom: none;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;  
+}
+
+.tabs a{
   display: inline-block;
-  width: 75px;
-  padding: 5px;
-  
+  text-decoration: none;
+  text-align: center;
+  line-height: 5px;
+  vertical-align: middle;
+  background: white;
+  color: blue;
+  padding: 10px 20px;
 }
 
-#tabs a{
-  text-decoration: none;
-  font-weight: bold;
-  text-align: center;
-  background: none;
-  color: blue;
+.final-para{
+  border: 1px solid #6699cc;
+  border-radius: 5px
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.final-para p{
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 5px;
+}
+
+#tab2{
+  border-bottom: 1px solid white;
 }
 
